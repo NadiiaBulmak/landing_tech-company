@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
     "lint:js": "eslint \"src/**/*.{js,mjs}\"",
     "lint:css": "stylelint \"**/*.{css,scss}\"",

@@ -1,0 +1,15 @@
+@use '../utils/mixins' as *;
+
+.recommended {
+  &__products {
+    @include page-grid;
+  }
+
+  &__product {
+    grid-column: 1 / -1;
+
+    @include on-desctop {
+      grid-column: span 4;
+    }
+  }
+}

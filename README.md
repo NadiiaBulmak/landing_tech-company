@@ -17,4 +17,4 @@ A responsive and modern landing page layout designed for a tech company. This pr
 - CSS Animations & Transformations
 
 ## 🚀 Demo
-Check out the live version of the project [here]().
+Check out the live version of the project [here](https://nadiiabulmak.github.io/landing_tech-company/).
